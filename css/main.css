@@ -32,7 +32,7 @@ img {
 
 hr {
   color: #e2e2e2;
-  margin-top: 0;
+  margin-top: .5rem;
 }
 
 header {
@@ -58,7 +58,6 @@ ul {
   justify-content: center;
   flex-direction: row;
   list-style-type: none;
-  padding-left: 0;
   margin: 0;
 }
 
@@ -78,20 +77,22 @@ li {
   padding: 0 1rem 1rem 0;
 }
 
+.intro {
+  text-align: center;
+  max-width: 30em;
+}
+
 section h2 {
   font-weight: normal;
   font-size: 2rem;
-  text-align: center;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 1rem;
 }
 
 section p {
-  text-align: center;
   font-size: 1rem;
-  padding-left: 1.125rem;
-  padding-right: 1.125rem;
-  padding-bottom: 1rem;
+  padding: 1rem;
   font-style: normal;
 }
 
@@ -101,7 +102,7 @@ section p {
   color: #3783a3;
   border: .2rem solid #3784a4;
   border-radius: .3rem;
-  padding: .5rem 3.5rem .5rem 1rem;
+  padding: .5em 1em .7em;
 }
 
 main {
@@ -162,6 +163,14 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1rem;
+  }
+
+  .intro {
+    margin: auto;
+  }
+
+  hr {
+    max-width: 30em;
   }
 
 }
